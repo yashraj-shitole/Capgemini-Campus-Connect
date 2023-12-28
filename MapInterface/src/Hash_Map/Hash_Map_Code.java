@@ -1,0 +1,41 @@
+package Hash_Map;
+
+import java.util.*;
+import java.util.Map.Entry;
+
+public class Hash_Map_Code {
+
+	public static void main(String[] args) {
+
+		
+		//maintain unique ID
+		//Order not maintained
+		//can have duplicate data
+	
+		HashMap<Long, String> hashMap=new HashMap<>();
+		
+		hashMap.put(7219014381l, "asd");
+		hashMap.put(9876543210l, "zxcv");
+		hashMap.put(8765432109l, "qwe");
+		hashMap.put(7654321098l, "fghvb");
+		hashMap.put(6543210987l, "jklv");
+		hashMap.put(5432109876l, "tyu");
+		hashMap.put(4321098765l, "zxcvc");
+		
+		
+		System.out.println(hashMap);
+		
+		System.out.println();
+		System.out.println();
+		
+		
+		//custom output
+		for(Entry<Long, String> m:hashMap.entrySet()) {
+			System.out.println(m.getKey()+"->"+m.getValue());
+		}
+		
+		
+
+	}
+
+}

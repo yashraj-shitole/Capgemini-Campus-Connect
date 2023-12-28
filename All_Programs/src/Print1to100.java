@@ -1,0 +1,28 @@
+
+public class Print1to100 {
+//	1. Program to find sum of even and odd numbers using single for loop
+//    from 1 to 100
+//	2. use while loop
+//	3. program to find the factorial of user input number
+//	4. Program to print Fibonacci Series , 1 1 2 3 5 8 13 21 34 55... nterms
+//	5. Program to reverse the given number
+//	6. program to print factor of number
+//	7.Program to check the given number is prime or not
+	
+	public static void main(String args[]) {
+		
+		int i=0;
+		System.out.println("1 to 100 even numbers");
+		
+		for(i=1;i<=100;i++) {
+
+			if(i%2==0) {
+				System.out.println(i);
+				}
+			
+		}
+	}
+	
+	
+
+}

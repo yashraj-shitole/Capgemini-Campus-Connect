@@ -1,0 +1,39 @@
+import java.util.Iterator;
+
+public class ArrayEvenOdd {
+	
+	public static void main(String args[]) {
+		
+		
+		int[] a= {1,2,3,4,5};
+		int[] even=new int[2];
+		int evenc=0;
+		int[] odd=new int[3];
+		int oddc=0;
+		
+		for (int i=0;i<a.length;i++) {
+			
+			if(a[i]%2==0) {
+				
+				even[evenc]=a[i];
+				evenc++;
+			}
+			if(a[i]%2!=0) {
+				odd[oddc]=a[i];
+				oddc++;
+			}
+		}
+		
+		for (int i : odd) {
+			System.out.print(i);
+			
+		}
+		System.out.println();
+		for (int i : even) {
+			System.out.print(i);
+			
+		}
+		
+	}
+
+}

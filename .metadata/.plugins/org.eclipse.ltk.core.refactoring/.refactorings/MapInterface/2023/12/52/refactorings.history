@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy 2 elements to &apos;All_Programs/src/(default package)&apos;&#x0D;&#x0A;- Original project: &apos;MapInterface&apos;&#x0D;&#x0A;- Destination element: &apos;All_Programs/src/(default package)&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Hash_Map.Occurence_of_Char_in_String.java&#x0D;&#x0A;     Hash_Map.Occurence_of_intergers_in_Array.java" description="Copy compilation units" destination="=All_Programs/src&lt;" element1="/src&lt;Hash_Map{Occurence_of_Char_in_String.java" element2="/src&lt;Hash_Map{Occurence_of_intergers_in_Array.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1703574710462" units="2" version="1.0"/>
+</session>

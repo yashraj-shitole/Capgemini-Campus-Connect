@@ -1,0 +1,21 @@
+import java.util.Iterator;
+import java.util.Scanner;
+
+public class FactorsOfNumer {
+
+	public static void main(String[] args) {
+
+		Scanner scanner=new Scanner(System.in);
+		int num=scanner.nextInt();
+		int remainder=1;
+		double sumOfCube=0;
+		
+		while(num!=0){
+			remainder=num%10;
+			sumOfCube= sumOfCube+Math.pow(remainder,3);
+		}
+		
+		System.out.println(sumOfCube);
+	}
+
+}

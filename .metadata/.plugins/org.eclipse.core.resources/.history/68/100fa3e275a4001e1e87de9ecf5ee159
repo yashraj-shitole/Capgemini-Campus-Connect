@@ -1,0 +1,21 @@
+
+package String_Code;
+
+
+public class String_code {
+
+
+	public static void main(String[] args) {
+
+		
+		
+		
+		String string3="edubridge";
+		
+		for (int i = string3.length()-1; i <=0 ; i--) {
+			System.out.println(string3.substring(i));
+		}
+		
+	}
+
+}

@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class ReverseGivenNumber {
+	
+	public static void main(String args[]) {
+		
+		Scanner scanner=new Scanner(System.in);
+		int num=scanner.nextInt();
+		int reverse=0;
+		
+		while(num!=0) {
+			
+			int remain=num%10;
+			reverse=remain*10+remain;
+			num=reverse/10;
+		}
+		
+		System.out.println("Reverse number is: "+reverse);
+	}
+
+}

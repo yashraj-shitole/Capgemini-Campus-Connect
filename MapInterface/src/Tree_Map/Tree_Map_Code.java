@@ -1,0 +1,37 @@
+package Tree_Map;
+
+import java.util.*;
+
+public class Tree_Map_Code {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+TreeMap<Long, String> treeMap=new TreeMap<>();
+		
+		treeMap.put(7219014381l, "asd");
+		treeMap.put(9876543210l, "zxcv");
+		treeMap.put(8765432109l, "qwe");
+		treeMap.put(7654321098l, "fghvb");
+		treeMap.put(6543210987l, "jklv");
+		treeMap.put(5432109876l, "tyu");
+		treeMap.put(4321098765l, "zxcvc");
+		
+		System.out.println(treeMap);
+		
+		
+		
+		Long n=7219014381l;
+		
+		if (treeMap.containsKey(n)) {
+			System.out.println("Present");
+		}
+		else {
+			System.out.println("Not present");
+		}
+		
+		
+		
+	}
+
+}

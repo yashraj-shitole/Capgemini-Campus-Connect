@@ -1,0 +1,21 @@
+package Hash_Map;
+
+import java.util.HashMap;
+
+public class Hash_Map_Code {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		//maintain unique ID
+	
+		HashMap<Integer, String> hashMap=new HashMap<>();
+		
+		hashMap.put(1, "Yashraj");
+		
+		
+		
+		System.out.println(hashMap);
+
+	}
+
+}

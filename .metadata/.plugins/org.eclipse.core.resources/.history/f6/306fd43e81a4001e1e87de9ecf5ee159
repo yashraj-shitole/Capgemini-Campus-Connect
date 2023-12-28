@@ -1,0 +1,15 @@
+package String_Buffer;
+
+public class String_Buffer_Code {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		  StringBuffer sb = new StringBuffer();
+	        sb.append("Hello");
+	        sb.append(" ");
+	        sb.append("world");
+	        String message = sb.toString();
+	        System.out.println(message);
+	}
+
+}

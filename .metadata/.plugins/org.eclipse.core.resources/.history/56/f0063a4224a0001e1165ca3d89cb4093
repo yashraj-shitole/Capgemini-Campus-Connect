@@ -1,0 +1,28 @@
+public class ReverseWord {
+    public static void main(String[] args) {
+        String sentence = "Hello Yashraj ranjeet AShitole njd dhba   nbbjgbhgba  notcontain";
+        String[] words = sentence.split("\\s+"); // Split sentence into words
+        
+        StringBuilder reversedSentence = new StringBuilder();
+        boolean wordReversed = false;
+
+        for (String word : words) {
+            if (word.contains("a")) {
+                StringBuilder reversed = new StringBuilder(word);
+                int indexOfA = word.indexOf('a');
+                reversed.reverse(); // Reverse the word
+                reversedSentence.append(reversed.toString()).append(" ");
+                wordReversed = true;
+            } else {
+                reversedSentence.append(word).append(" ");
+            }
+        }
+
+        if (wordReversed) {
+            System.out.println("Original sentence: " + sentence);
+            System.out.println("Reversed sentence: " + reversedSentence.toString().trim());
+        } else {
+            System.out.println("No word containing 'a' found in the sentence.");
+        }
+    }
+}

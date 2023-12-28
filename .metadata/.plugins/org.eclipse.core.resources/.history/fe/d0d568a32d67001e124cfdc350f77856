@@ -1,0 +1,27 @@
+
+public class SumOfEvenAndOddNUmbers {
+	
+	 public static void main(String args[]) {
+		 
+		 int n=100;
+		 int evenSum = 0;
+		 int oddSum=0;
+		 
+		 for(int i=0;i<=n;i++) {
+			 
+			 
+			 if (i%2!=0) {
+				 oddSum+=i;
+				
+			}
+			 
+		 }
+
+		 System.out.println("Sum of even numbers upto "+n+"is: "+evenSum);
+		 System.out.println("Sum of odd numbers upto "+n+"is: "+oddSum);
+		 
+		 
+		
+	}
+
+}

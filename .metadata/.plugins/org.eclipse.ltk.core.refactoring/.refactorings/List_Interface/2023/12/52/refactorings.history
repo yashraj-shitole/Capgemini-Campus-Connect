@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;List_Interface&apos;&#x0D;&#x0A;- Original project: &apos;List_Interface&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     Linked_List.Arraylist.java&#x0D;&#x0A;     Linked_List.ToRemoveDuplicates.java&#x0D;&#x0A;     Linked_List.Two_dimentional_arraylist.java" description="Delete elements" element1="/src&lt;Linked_List{ToRemoveDuplicates.java" element2="/src&lt;Linked_List{Two_dimentional_arraylist.java" element3="/src&lt;Linked_List{Arraylist.java" elements="3" flags="589830" id="org.eclipse.jdt.ui.delete" resources="0" stamp="1703649559474" subPackages="false" version="1.0"/>
+</session>

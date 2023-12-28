@@ -1,0 +1,10 @@
+package Hash_Map;
+
+public class Occurence_of_intergers_in_Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
